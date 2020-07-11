@@ -1,3 +1,13 @@
+# Install the packages
+
+npm install
+
+# start the application
+
+npx nx serve
+
+---------------------------------------------------------------------------------
+
 # ProximieChallenge
 
 This project was generated using [Nx](https://nx.dev).
