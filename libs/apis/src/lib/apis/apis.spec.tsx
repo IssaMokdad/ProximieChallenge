@@ -1,13 +1,11 @@
 import React from 'react';
 import { render } from '@testing-library/react';
 
-import App from './app';
+import Apis from './apis';
 
-describe('App', () => {
+describe(' Apis', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<App />);
-
+    const { baseElement } = render(<Apis />);
     expect(baseElement).toBeTruthy();
   });
-
 });

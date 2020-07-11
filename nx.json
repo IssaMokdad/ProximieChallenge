@@ -28,6 +28,12 @@
     "proximie-challenge-e2e": {
       "tags": [],
       "implicitDependencies": ["proximie-challenge"]
+    },
+    "ui": {
+      "tags": []
+    },
+    "apis": {
+      "tags": []
     }
   }
 }

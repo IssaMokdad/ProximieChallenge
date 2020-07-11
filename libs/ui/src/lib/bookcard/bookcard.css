@@ -1,0 +1,10 @@
+.book-card-size{
+    width:300px;
+    height: 400px;
+}
+
+.title-height{
+    height:90px;
+    overflow-y: auto;
+    
+}

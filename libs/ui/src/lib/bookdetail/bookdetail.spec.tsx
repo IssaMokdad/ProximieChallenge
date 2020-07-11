@@ -1,13 +1,11 @@
 import React from 'react';
 import { render } from '@testing-library/react';
 
-import App from './app';
+import Bookdetail from './bookdetail';
 
-describe('App', () => {
+describe(' Bookdetail', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<App />);
-
+    const { baseElement } = render(<Bookdetail />);
     expect(baseElement).toBeTruthy();
   });
-
 });

@@ -1,13 +1,11 @@
 import React from 'react';
 import { render } from '@testing-library/react';
 
-import App from './app';
+import Spinner from './spinner';
 
-describe('App', () => {
+describe(' Spinner', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<App />);
-
+    const { baseElement } = render(<Spinner />);
     expect(baseElement).toBeTruthy();
   });
-
 });

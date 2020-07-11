@@ -15,7 +15,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@proximie-challenge/ui": ["libs/ui/src/index.ts"],
+      "@proximie-challenge/apis": ["libs/apis/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
